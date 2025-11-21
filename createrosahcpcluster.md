@@ -6,7 +6,7 @@ In this section we will deploy a ROSA cluster using Hosted Control Plane (HCP).
 
 In short, with ROSA HCP you can decouple the control plane from the data plane (workers). This is a new deployment model for ROSA in which the control plane is hosted in a Red Hat owned AWS account. Therefore the control plane is no longer hosted in your AWS account thus reducing your AWS infrastructure expenses. The control plane is dedicated to each cluster and is highly available. See the documentation for more about [Hosted Control Planes](https://docs.openshift.com/container-platform/4.15/architecture/control-plane.html#hosted-control-planes-overview_control-plane).
 
-## Prerequisites[#](#prerequisites)
+## Prerequisites
 
 ROSA HCP requires a few things to be created before deploying the cluster:
 
@@ -22,7 +22,7 @@ ROSA HCP requires a few things to be created before deploying the cluster:
 
 Let’s create those first.
 
-#### Ensure ELB service role exists[#](#ensure-elb-service-role-exists)
+#### Ensure ELB service role exists
 
 Run the following to check for the role and create it if it is missing.
 
@@ -31,7 +31,7 @@ Run the following to check for the role and create it if it is missing.
     aws iam get-role --role-name "AWSServiceRoleForElasticLoadBalancing" || aws iam create-service-linked-role --aws-service-name "elasticloadbalancing.amazonaws.com"
 
 ```
-#### VPC[#](#vpc)
+#### VPC
 
 1. Set a few environment variables for your networking configuration:
 
