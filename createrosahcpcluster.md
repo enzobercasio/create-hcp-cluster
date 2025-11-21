@@ -2,7 +2,7 @@ Lab 2 - Create a ROSA HCP Cluster | ROSA HCP Workshop
 ## [ROSA HCP Workshop](/)
 
 
-In this section we will deploy a ROSA cluster using Hosted Control Plane (HCP).
+In this section we will deploy a new ROSA cluster using Hosted Control Plane (HCP).
 
 In short, with ROSA HCP you can decouple the control plane from the data plane (workers). This is a new deployment model for ROSA in which the control plane is hosted in a Red Hat owned AWS account. Therefore the control plane is no longer hosted in your AWS account thus reducing your AWS infrastructure expenses. The control plane is dedicated to each cluster and is highly available. See the documentation for more about [Hosted Control Planes](https://docs.openshift.com/container-platform/4.15/architecture/control-plane.html#hosted-control-planes-overview_control-plane).
 
