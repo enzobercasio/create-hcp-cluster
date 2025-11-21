@@ -188,7 +188,7 @@ Warning: If one or both are blank, do not proceed and ask for assistance.
 
 
 
-#### OIDC Configuration[#](#oidc-configuration)
+#### OIDC Configuration
 
 To create the OIDC configuration to be used for your cluster in this workshop, run the following command. We are opting for the automatic creation mode and Red Hat managed, as this is simpler for the workshop purposes. We are going to store the generated OIDC ID to an environment variable for later use. Notice that the following command uses the ROSA CLI to create your cluster’s unique OIDC configuration.
 
@@ -205,7 +205,7 @@ Sample Output
 ```
 23o3doeo86adgqhci4jl000000000000
 ```
-## Create the Cluster[#](#create-the-cluster)
+## Create the Cluster
 
 As this is the first time you are deploying ROSA in this account and have not yet created the account roles, create the account-wide roles with policies, and Operator roles with policies. Since ROSA makes use of AWS Security Token Service (STS), this step creates the AWS IAM roles and policies that are needed for ROSA to interact within your account. See [Account-wide IAM role and policy reference](https://docs.openshift.com/rosa/rosa_architecture/rosa-sts-about-iam-resources.html#rosa-sts-account-wide-roles-and-policies_rosa-sts-about-iam-resources) for more details if you are interested.
 
@@ -251,7 +251,7 @@ In about 10 minutes the control plane and API will be up, and about 5-10 minutes
 
 
 
-## Check installation status[#](#check-installation-status)
+## Check installation status
 
 1. You can run the following command to check the detailed status of the cluster
 
@@ -272,12 +272,5 @@ or, you can also watch the logs as it progresses
 
 
 
-You can continue this lab - there is a step in the next section where you will need to wait for the cluster operators to finish rolling out - but there is no need to wait at this point.
+You can continue and go back to the original lab - there is a step in the next section where you will need to wait for the cluster operators to finish rolling out - but there is no need to wait at this point.
 
-[![Backward](/icons/backward.svg)
-Lab 1 - Explore the environment](/docs/lab_1_explore_rosa/)[Lab 3 - Access ROSA HCP Cluster
-![Forward](/icons/forward.svg)](/docs/lab_3_access_cluster/)(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()* [Deploy your cluster using a Hosted Control Plane](#deploy-your-cluster-using-a-hosted-control-plane)
-* [Prerequisites](#prerequisites)
-	+
-* [Create the Cluster](#create-the-cluster)
-* [Check installation status](#check-installation-status)
