@@ -217,7 +217,7 @@ As this is the first time you are deploying ROSA in this account and have not ye
 
 ```
 
-2. Get the billing account to use for new ROSA Cluster creation
+2. Get the billing account to use for new ROSA Cluster creation. The AWS Billing Account is required during cluster creation so we will be taking the same billing account from the pre-installed ROSA cluster in this lab environment. 
 
 
 ```
