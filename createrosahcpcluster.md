@@ -1,26 +1,6 @@
 Lab 2 - Create a ROSA HCP Cluster | ROSA HCP Workshop
 ## [ROSA HCP Workshop](/)
 
-document.querySelector(".book-search").classList.remove("hidden")* [Lab 1 - Explore the environment](/docs/lab_1_explore_rosa/)
-* [Lab 2 - Create a ROSA HCP Cluster](/docs/lab_2_cluster_creation_hcp/)
-* [Lab 3 - Access ROSA HCP Cluster](/docs/lab_3_access_cluster/)
-* [Lab 4 - Upgrade ROSA HCP Cluster](/docs/lab_4_cluster_upgrade/)
-* [Lab 5 - Managing Worker Nodes](/docs/lab_5_managing_worker_nodes-copy/)
-* [Lab 6 - Labeling Worker Nodes](/docs/lab_6_labeling_nodes/)
-* [Lab 7 - Autoscaling ROSA HCP Cluster](/docs/lab_7_autoscaling/)
-* [Lab 8 - Configure Red Hat OpenShift Logging with AWS Cloudwatch](/docs/lab_8_cloudwatch/)
-* [Lab 9 - Deploy an application with AWS Database](/docs/lab_9_deploy_app/)
-* [Lab 10 - Deploy an application with Red Hat OpenShift GitOps](/docs/lab_10_openshift_gitops/)
-* [Lab 11 - Secure your applications with Network Policies](/docs/lab_11_network_policy/)
-* [Lab 12 - Make your application resilient](/docs/lab_12_resilient_app/)
-(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()![Menu](/icons/menu.svg)### Lab 2 - Create a ROSA HCP Cluster
-
-![Table of Contents](/icons/toc.svg)* [Deploy your cluster using a Hosted Control Plane](#deploy-your-cluster-using-a-hosted-control-plane)
-* [Prerequisites](#prerequisites)
-	+
-* [Create the Cluster](#create-the-cluster)
-* [Check installation status](#check-installation-status)
-## Deploy your cluster using a Hosted Control Plane[#](#deploy-your-cluster-using-a-hosted-control-plane)
 
 In this section we will deploy a ROSA cluster using Hosted Control Plane (HCP).
 
